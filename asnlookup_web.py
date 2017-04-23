@@ -18,6 +18,11 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!\n'
 
+@app.route('/health')
+def hello_world():
+    asn_client.lookup("8.8.8.8")
+    return 'ok\n'
+
 @app.route('/lookup')
 def lookup():
     ip = request.args.get('ip', '')
