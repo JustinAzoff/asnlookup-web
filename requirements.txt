@@ -1,0 +1,9 @@
+Flask==0.12.1
+Jinja2==2.9.6
+MarkupSafe==1.0
+Werkzeug==0.12.1
+git+git://github.com/JustinAzoff/asnlookup-client-python#egg=asnlookup-client
+asnlookup-web==0.0.1
+click==6.7
+itsdangerous==0.24
+pyzmq==16.0.2
