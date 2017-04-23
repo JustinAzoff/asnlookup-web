@@ -19,7 +19,7 @@ def hello_world():
     return 'Hello, World!\n'
 
 @app.route('/health')
-def hello_world():
+def health():
     asn_client.lookup("8.8.8.8")
     return 'ok\n'
 
